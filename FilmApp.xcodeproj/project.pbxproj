@@ -17,6 +17,8 @@
 		142BC0F72A0097E60053A6D4 /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BC0F62A0097E60053A6D4 /* FilmViewModel.swift */; };
 		142BC0F92A0098DF0053A6D4 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BC0F82A0098DF0053A6D4 /* ImageService.swift */; };
 		142BC0FB2A00B4D60053A6D4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BC0FA2A00B4D60053A6D4 /* ImageView.swift */; };
+		142BC0FD2A01244C0053A6D4 /* Forground.App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BC0FC2A01244C0053A6D4 /* Forground.App.swift */; };
+		142BC0FF2A012B4E0053A6D4 /* MyMatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BC0FE2A012B4E0053A6D4 /* MyMatchedGeometryEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		142BC0F62A0097E60053A6D4 /* FilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
 		142BC0F82A0098DF0053A6D4 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		142BC0FA2A00B4D60053A6D4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		142BC0FC2A01244C0053A6D4 /* Forground.App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forground.App.swift; sourceTree = "<group>"; };
+		142BC0FE2A012B4E0053A6D4 /* MyMatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMatchedGeometryEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				142BC0FA2A00B4D60053A6D4 /* ImageView.swift */,
+				142BC0FC2A01244C0053A6D4 /* Forground.App.swift */,
+				142BC0FE2A012B4E0053A6D4 /* MyMatchedGeometryEffect.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 				142BC0EF2A00946E0053A6D4 /* Film.swift in Sources */,
 				142BC0DA2A0093EF0053A6D4 /* ContentView.swift in Sources */,
 				142BC0F32A00965E0053A6D4 /* SearchFilmViewModel.swift in Sources */,
+				142BC0FD2A01244C0053A6D4 /* Forground.App.swift in Sources */,
+				142BC0FF2A012B4E0053A6D4 /* MyMatchedGeometryEffect.swift in Sources */,
 				142BC0D82A0093EF0053A6D4 /* FilmAppApp.swift in Sources */,
 				142BC0F72A0097E60053A6D4 /* FilmViewModel.swift in Sources */,
 			);

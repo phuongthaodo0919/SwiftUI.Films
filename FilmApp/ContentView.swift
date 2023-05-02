@@ -19,20 +19,32 @@ struct ContentView: View {
     
     var body: some View {
         let column : [GridItem] = Array(repeating: .init(.flexible()), count: 3)
-        
-        LazyVGrid(columns: column) {
-            ForEach(searchFilmVM.filmList, id: \.imdbID) { film in
-                VStack {
-                    ImageView(url: film.poster)
-                    Text(film.title)
+        NavigationView {
+            
+            VStack {
+                MyMatchedGeometryEffect()
+                    .padding()
+                
+                Forground_App()
+                    .padding()
+                
+                ScrollView {
+                    LazyVGrid(columns: column) {
+                        ForEach(searchFilmVM.filmList, id: \.imdbID) { film in
+                            VStack {
+                                ImageView(url: film.poster)
+                                Text(film.title)
+                            }
+                        }
+                    }
                 }
             }
         }
-
-        
-        .onAppear(){
-            searchFilmVM.fetchFilm()
+            
+            .onAppear(){
+                searchFilmVM.fetchFilm()
         }
+        
     }
 }
 
